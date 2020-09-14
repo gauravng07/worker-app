@@ -1,0 +1,20 @@
+.idea
+.vscode
+.DS_Store
+
+### Go template
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+hotels
+bin/
+decrypted-secrets*
+# Test binary, built with `go test -c`
+*.test
+.idea/
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
