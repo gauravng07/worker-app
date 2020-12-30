@@ -1,7 +1,7 @@
 package worker
 
 import (
-	"hello-fresh-app/internal/model"
+	"scb-recipe-app/internal/model"
 	"strings"
 )
 

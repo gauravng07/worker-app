@@ -1,4 +1,4 @@
-module hello-fresh-app
+module scb-recipe-app
 
 go 1.13
 

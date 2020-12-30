@@ -2,11 +2,11 @@ package handler
 
 import (
 	"encoding/json"
-	"hello-fresh-app/internal/service"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
+	"scb-recipe-app/internal/service"
 )
 
 func RecipeStatsHandler(res http.ResponseWriter, req *http.Request)  {

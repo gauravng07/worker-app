@@ -2,11 +2,11 @@ package main
 
 import (
 	"context"
-	"hello-fresh-app/internal"
 	"log"
 	"net/http"
 	"os"
 	"os/signal"
+	"scb-recipe-app/internal"
 	"syscall"
 
 	"github.com/gorilla/mux"

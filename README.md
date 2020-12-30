@@ -3,7 +3,7 @@
 # Local setup
 * Install version `go1.14 `
 * Install docker
-* Run `local-setup` to setup hooks and other tools
+* Run `setup` to setup hooks and other tools
 
 # Commands for local development
 * Run app :`make run`
@@ -15,12 +15,12 @@
 
 #Docker
 * docker build --tag hello-fresh:1.0 .
-* docker run --publish 9000:9000 --detach --name bb hello-fresh:1.0
+* docker run --publish 9000:9000 --detach --name bb scb-recipe-app:1.0
 
 #Functionality NFR
 1. `Upload file`
     * Once user run the application
-    * Open localhost:9000
+    * Open http://localhost:9000/recipe
     * Upload file and submit.
     * Response will be on browser in JSON format
 2. `Search By Recipe`
